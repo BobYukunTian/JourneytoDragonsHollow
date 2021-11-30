@@ -1,9 +1,9 @@
 # The Tortoise Chronicles: Journey to Dragon’s Hollow
 The Tortoise Chronicles: Journey to Dragon’s Hollow
 
-#### COMP 2404 -- Take-home Final Exam
-#### program name: final
-#### Author: Bob Tian  #101083783
+###### COMP 2404 -- Take-home Final Exam
+###### program name: final
+###### Author: Bob Tian  #101083783
 
 The program will simulate a confined area called Dragon’s Hollow, which is basically a flat, sunken area,
 surrounded by trees on three sides and a cave on the other. Timmy Tortoise and Harold the Hare will make
