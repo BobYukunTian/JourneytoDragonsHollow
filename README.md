@@ -1,5 +1,4 @@
 # The Tortoise Chronicles: Journey to Dragon’s Hollow
-The Tortoise Chronicles: Journey to Dragon’s Hollow
 
 Author: Bob Tian
 
@@ -9,6 +8,18 @@ their way from the left-hand side of Dragon’s Hollow to the right-hand side, w
 inside the cave. This cave is guarded by a Dragon and a bunch of dorcs, borcs, and porcs.
 The goal of the program is for Timmy or Harold to make their way across Dragon’s Hollow (moving from
 the left-hand side to the right-hand side), and rescue the Emerald, all without dying.
+
+### List of source/header/data files:
+
+Array.h     Dragon.h    Hero.h      QuestPlayer.cc  README.txt \
+Control.cc  Fighter.cc  main.cc     QuestPlayer.h   TwoDimArray.h \
+Control.h   Fighter.h   Makefile    random.cc       View.cc \
+Dragon.cc   Hero.cc     Position.h  random.h        View.h \
+
+
+### Compilation and launching instructions:
+make \
+./final
 
 
 ### The program has implemented the following requirements:
