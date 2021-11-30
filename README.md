@@ -1,9 +1,9 @@
 # The Tortoise Chronicles: Journey to Dragon’s Hollow
 The Tortoise Chronicles: Journey to Dragon’s Hollow
 
-### COMP 2404 -- Take-home Final Exam\
-### program name: final\
-### Author: Bob Tian  #101083783\
+#### COMP 2404 -- Take-home Final Exam
+#### program name: final
+#### Author: Bob Tian  #101083783
 
 The program will simulate a confined area called Dragon’s Hollow, which is basically a flat, sunken area,
 surrounded by trees on three sides and a cave on the other. Timmy Tortoise and Harold the Hare will make
@@ -13,7 +13,7 @@ The goal of the program is for Timmy or Harold to make their way across Dragon�
 the left-hand side to the right-hand side), and rescue the Emerald, all without dying.
 
 
-### The program has implemented the following requirements:\
+### The program has implemented the following requirements:
 1.1. The quest of our heroes (Timmy and Harold), and their battles against the hired fighters (dorcs, borcs,
 and porcs) guarding the Dragon’s cave, take place in Dragon’s Hollow. \
 1.1.1. Dragon’s Hollow, represented as 25 characters wide (horizontal axis) and 5 characters high (ver-
@@ -88,7 +88,7 @@ new feature.\
 feature.\
 1.6.4. To earn marks, the feature must be thoroughly described in your README file.\
 
-### Several innovative features beyond requirements:\
+### Several innovative features beyond requirements:
 Add a welcome interface for user selection\
 Provice interface for adjusting width and height of the Hollow\
 The QuestPlayer will act acording to the new size and perform correct beheiviour\
@@ -100,7 +100,7 @@ Hero\
 QuestPlayer\
 View\
 
-### Background Story:\
+### Background Story:
 Trouble is brewing in King Aesop’s peaceful realm. Handsome Prince Harold the Hare has come up with
 his most preposterous idea yet. He has decided that, in order to woo the fair Lady Gwendolyn and win her
 over, he will be braving theMount of Dooom, on a quest to recover the Emerald of the Isles from the
