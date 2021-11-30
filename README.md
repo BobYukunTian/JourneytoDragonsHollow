@@ -38,68 +38,67 @@ a collection of the quest players that are located in Dragon’s Hollow, and thi
 STL list of base class object pointers.\
 1.4. The program iterates until either (1) Timmy or Harold claims the Emerald, which happens when one
 of our heroes walks into the cave where the Emerald is located, or (2) both heroes are dead.
-1.5. At each iteration, the following occurs:
-1.5.1. With a probability of 60%, your program generates a new fighter:
+1.5. At each iteration, the following occurs:\
+1.5.1. With a probability of 60%, your program generates a new fighter:\
 (a) A new fighter has equal probability of being a dorc, a borc, or a porc. Dorcs are represented
-by the avatar ’d’, borcs by ’b’, and porcs by ’p’.
+by the avatar ’d’, borcs by ’b’, and porcs by ’p’.\
 (b) Fighters are initially situated on the right-most edge of Dragon’s Hollow, at a randomly gen-
-erated vertical position in front of the cave.
+erated vertical position in front of the cave.\
 (c) Fighters begin with 5 health points, and a randomly generated strength in the following
 ranges: dorcs begin with a strength between 6 and 8 points (inclusively), borcs with a strength
-between 8 and 11 points, and porcs between 4 and 5 points.
+between 8 and 11 points, and porcs between 4 and 5 points.\
 1.5.2. Your program loops over each quest player in the list. For each quest player, your program must
 invoke a function that polymorphically computes that player’s next position. Quest players
-move according to these rules:
+move according to these rules:\
 (a) Timmy and Harold move one horizontal position to the right, with a vertical position randomly
-generated between the same vertical position, one position up, or one position down.
+generated between the same vertical position, one position up, or one position down.\
 (b) Fighters move one horizontal position to the left, with a vertical position randomly generated
-between the same vertical position, one position up, or one position down.
-©2020 Christine Laurendeau COMP 2404 :: Winter 2020 :: Take-home Final Exam 2/6
+between the same vertical position, one position up, or one position down.\
 (c) The Dragon paces up and down in front of the cave entrance, moving up one position until it
 reaches the top position of the entrance, then reversing direction, until it reaches the bottom
-position of the entrance, then reversing direction, and so on.
+position of the entrance, then reversing direction, and so on.\
 (d) If the new position computed for a quest player is out of bounds of the Hollow, the player is
-positioned at an adjacent, valid position instead.
-(e) If the new position is not occupied, the quest player moves to that position.
+positioned at an adjacent, valid position instead.\
+(e) If the new position is not occupied, the quest player moves to that position.\
 (f) If the new position is occupied by another quest player, a collision ensues and is handled
 as described below. Both quest players are still moved to that position, although only one
-avatar will be displayed.
+avatar will be displayed.\
 (g) Any fighters that have reached the left-most edge disappear from the Hollow and from the
-quest.
-1.5.3. The display is refreshed to show all the quest players, in their updated positions.
-1.5.4. Handling collisions:
-(a) If Timmy and Harold collide with each other, nothing happens.
-(b) If a fighter collides with the Dragon or with another fighter, nothing happens.
-(c) If a hero collides with the Dragon, the hero instantly dies.
-(d) If a hero and a fighter collide, both quest players take a hit, as follows:
+quest.\
+1.5.3. The display is refreshed to show all the quest players, in their updated positions.\
+1.5.4. Handling collisions:\
+(a) If Timmy and Harold collide with each other, nothing happens.\
+(b) If a fighter collides with the Dragon or with another fighter, nothing happens.\
+(c) If a hero collides with the Dragon, the hero instantly dies.\
+(d) If a hero and a fighter collide, both quest players take a hit, as follows:\
 (i) If Timmy or Harold takes a hit, that hero’s health is decreased by the damage inflicted by
 the fighter. The damage is equal to the fighter’s strength, minus the hero’s armour. When
-a hero’s health reaches zero, he dies.
+a hero’s health reaches zero, he dies.\
 (ii) If a fighter takes a hit, that fighter’s health is decreased by the damage inflicted by the
-hero, which is equal to the hero’s strength. When a fighter’s health reaches zero, it dies.
+hero, which is equal to the hero’s strength. When a fighter’s health reaches zero, it dies.\
 (e) If Timmy or Harold dies, his position is permanently marked with a ’+’ to indicate his grave.
-(f) If a fighter dies, it is removed from the quest.
+(f) If a fighter dies, it is removed from the quest.\
 1.6. Innovative feature: In addition to all requirements stipulated above, you will implement a new,
 innovative feature as an add-on to the program. Your new feature must, at minimum, meet the
-following criteria:
-1.6.1. It must require the implementation of a significant amount of additional code.
+following criteria:\
+1.6.1. It must require the implementation of a significant amount of additional code.\
 1.6.2. It must involve the implementation of several new classes that work together to implement the
-new feature.
+new feature.\
 1.6.3. It must be a useful feature in the context of the program, and not some filler or make-work
-feature.
-1.6.4. To earn marks, the feature must be thoroughly described in your README file.
+feature.\
+1.6.4. To earn marks, the feature must be thoroughly described in your README file.\
 
-Several innovative features beyond requirements:
-Add a welcome interface for user selection
-Provice interface for adjusting width and height of the Hollow
-The QuestPlayer will act acording to the new size and perform correct beheiviour
-Add statistics page to log outcomes of all run during the program, and print it for user
-classes are involved in providing the functionality:
-main
-Dragon
-Hero
-QuestPlayer
-View
+Several innovative features beyond requirements:\
+Add a welcome interface for user selection\
+Provice interface for adjusting width and height of the Hollow\
+The QuestPlayer will act acording to the new size and perform correct beheiviour\
+Add statistics page to log outcomes of all run during the program, and print it for user\
+classes are involved in providing the functionality:\
+main\
+Dragon\
+Hero\
+QuestPlayer\
+View\
 
 Background Story:
 Trouble is brewing in King Aesop’s peaceful realm. Handsome Prince Harold the Hare has come up with
