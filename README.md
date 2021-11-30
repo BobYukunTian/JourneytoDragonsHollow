@@ -15,28 +15,27 @@ the left-hand side to the right-hand side), and rescue the Emerald, all without 
 
 The program has implemented the following requirements:
 1.1. The quest of our heroes (Timmy and Harold), and their battles against the hired fighters (dorcs, borcs,
-and porcs) guarding the Dragon’s cave, take place in Dragon’s Hollow. At start-up, your program
-displays the following:
+and porcs) guarding the Dragon’s cave, take place in Dragon’s Hollow. \
 1.1.1. Dragon’s Hollow, represented as 25 characters wide (horizontal axis) and 5 characters high (ver-
 tical axis); the right-most edge of the Hollow represents a cave entrance in the middle three
-characters (see sample output)
-1.1.2. Initially, the following quest players are shown:
+characters \
+1.1.2. Initially, the following quest players are shown:\
 (a) Timmy (represented by his avatar ’T’) and Harold (with avatar ’H’) are situated at the left-
 most edge of the Hollow, at different randomly generated vertical positions (you must use a
-random number generator function for this; one can be downloaded from here).
+random number generator function for this; one can be downloaded from here).\
 (b) The Dragon (represented by its avatar ’D’) is situated at the right-most edge of the Hollow, at
 themidpoint on the vertical axis. TheEmerald is not a quest player, but it can be represented
-as an asterisk ’*’, as shown in the sample output.
+as an asterisk ’*’.\
 1.1.3. Note: The display must be stored as a class template specialization of a 2-dimensional array of
 chars. You must implement your own 2-dimensional array collection class template for this. In
 your implementation of this class template, the elements must be declared as a double pointer
 of type T, where the 2-dimensional array is represented as a dynamically allocated array of dy-
-namically allocated arrays.
+namically allocated arrays.\
 1.2. Timmy and Harold each begin with 15 health points. Timmy has a strength of 3 points and an armour
-of 3 points, and Harold has a strength of 5 points and an armour of 1 point.
+of 3 points, and Harold has a strength of 5 points and an armour of 1 point.\
 1.3. Note: You will need a base class for all the different types of quest players. Your program must store
 a collection of the quest players that are located in Dragon’s Hollow, and this collection must be a
-STL list of base class object pointers.
+STL list of base class object pointers.\
 1.4. The program iterates until either (1) Timmy or Harold claims the Emerald, which happens when one
 of our heroes walks into the cave where the Emerald is located, or (2) both heroes are dead.
 1.5. At each iteration, the following occurs:
