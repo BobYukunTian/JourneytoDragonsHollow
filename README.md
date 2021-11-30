@@ -14,7 +14,7 @@ the left-hand side to the right-hand side), and rescue the Emerald, all without 
 Array.h     Dragon.h    Hero.h      QuestPlayer.cc  README.txt \
 Control.cc  Fighter.cc  main.cc     QuestPlayer.h   TwoDimArray.h \
 Control.h   Fighter.h   Makefile    random.cc       View.cc \
-Dragon.cc   Hero.cc     Position.h  random.h        View.h \
+Dragon.cc   Hero.cc     Position.h  random.h        View.h 
 
 
 ### Compilation and launching instructions:
